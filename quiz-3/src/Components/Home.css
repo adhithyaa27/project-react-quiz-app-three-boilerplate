@@ -1,0 +1,26 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: rgb(71,58,141);
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.home{
+    margin-bottom: 500px;
+}
+#playBtn{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-size: 20px;
+    background-color: rgb(10,179,6);
+    padding: 8px 80px;
+    border-radius: 20px;
+}
+h3{
+    font-size: 26px;
+}
