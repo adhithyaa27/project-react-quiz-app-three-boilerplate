@@ -18,12 +18,10 @@ class Quiz extends Component {
         const { score } = this.state
         const {attempted} = this.state
 
-        // Check if the selected option is the correct answer
         if (selectedOption === questions[qno].answer) {
             
             alert("Correct!");
             
-            // Increment the score if the answer is correct
             this.setState((prevState) => ({ score: prevState.score + 1 }));
             console.log(score)
         } else {
@@ -51,7 +49,6 @@ class Quiz extends Component {
     quit = () => {
         const confirmQuit = window.confirm('Are you sure you want to quit?');
         if (confirmQuit) {
-            // Handle quitting logic, for now, it just displays a message
             alert('You quit the quiz.');
         }
     }
@@ -80,11 +77,14 @@ class Quiz extends Component {
                     </button>
                 </div>
                 <div id='navigation'>
-                    <button id='prevBtn' onClick={this.previous}>Previous</button>
-                    <button id='nextBtn' onClick={this.next}>Next</button>
-                    <button id='quitBtn' onClick={this.quit}>Quit</button>
+                    <button id='prevBtn' onClick={this.previous}> PREVIOUS</button>
+                    
+                    <button id='nextBtn' onClick={this.next}> NEXT</button>
+                    
+                    <button id='quitBtn' onClick={this.quit}> QUIT</button>
+
                     <Link to={`/result/${score}/${attempted}`}>
-                        <button id='finishBtn'>Finish</button>
+                        <button id='finishBtn'>FINISH</button>
                     </Link>
 
                 </div>

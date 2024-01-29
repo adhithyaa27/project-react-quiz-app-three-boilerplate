@@ -6,9 +6,10 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h3>Quiz App</h3>
+        <h3>QUIZ APP</h3>
+        
         <Link to="/quiz">
-          <button id="playBtn">Play</button>
+          <button id="playBtn">PLAY</button>
         </Link>
       </div>
     );

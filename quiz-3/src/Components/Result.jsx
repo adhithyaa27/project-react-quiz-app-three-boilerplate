@@ -7,14 +7,14 @@ class Result extends React.Component {
   render() {
     return (
       <div className="resultContainer">
-        <h1 className="title">Result</h1>
+        <h1 className="title">RESULT</h1>
         <div id="result"><ResultContent /></div>
         
         <Link to="/quiz">
-          <button id="buttonAgain">Play again</button>
+          <button id="Again">PLAY AGAIN </button>
         </Link>
         <Link to="/">
-          <button id="buttonHome">Back to home</button>
+          <button id="HOME">BACK TO HOME</button>
         </Link>
       </div>
     );

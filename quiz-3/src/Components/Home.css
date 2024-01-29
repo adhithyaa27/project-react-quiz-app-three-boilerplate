@@ -1,5 +1,5 @@
 *{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     
 }
@@ -15,12 +15,15 @@ body{
     margin-bottom: 500px;
 }
 #playBtn{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -5px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     font-size: 20px;
     background-color: rgb(10,179,6);
     padding: 8px 80px;
     border-radius: 20px;
 }
 h3{
-    font-size: 26px;
+    font-size: 100px;
+}
+#playBtn{
+    font-size: 30px;
 }

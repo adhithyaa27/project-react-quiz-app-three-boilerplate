@@ -8,11 +8,12 @@
     padding: 20px;
     margin-bottom: 10px;
     position: relative;
-    bottom: 50px;
+    bottom: 190px;
   }
 .title{
     position: relative;
-    bottom: 50px;
+    bottom: 220px;
+    font-size: 70px;
 }
 h4{
     margin-top: 20px;
@@ -29,12 +30,20 @@ p{
     display: flex;
     justify-content: space-between;
 }
-#buttonAgain{
-    color: blue;
+#Again{
+    color: black;
     border: 2px solid blue;
+    background-color: blue;
     margin: 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: 150px;
 }
-#buttonHome{
-    color: green;
+#HOME{
+    color: black;
+    background-color: green;
     border: 2px solid green;
+    font-size: 30px;
+    position: relative;
+    bottom: 150px;
 }

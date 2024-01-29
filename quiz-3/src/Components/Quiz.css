@@ -1,65 +1,72 @@
 .quiz {
-    background-color: white;
-    color: black;
-    height: 70vh;
-    width: 90vw;
-    border-left: 5px solid #9580ff;
-    position: relative;
-    bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
+   background-color: white;
+   color: black;
+   height: 70vh;
+   width: 90vw;
+   border-left: 5px solid #9580ff;
+   position: relative;
+   bottom: 150px;
+   margin-left: auto;
+   margin-right: auto;
    
- }
+}
  
- .quiz h1 {
-    text-align: center;
+.quiz h1 {
+   text-align: center;
    padding: 30px;
    color:black;
- }
- #question{
-    text-align: center;
-    color: black;
- }
+   font-size: 50px;
+   
+}
+#question{
+   text-align: center;
+   color: black;
+   font-size: 30px;
+}
 
  
- #questionNumber {
-    text-align: left;
-    color: black;
-    margin: 10px;
- }
+#questionNumber {
+   text-align: left;
+   color: black;
+   margin: 10px;
+   font-size: 30px;
+}
  
- #Optionbuttons button {
+#Optionbuttons button {
    height: 50px;
    width: 400px;
    border-radius: 20px;
    background-color: rgb(30, 161, 241);
    color: white;
    font-size: 100%;
- }
+}
  
- #Optionbuttons {
+#Optionbuttons {
    display: flex;
    flex-wrap: wrap;
    gap: 30px 100px;
    justify-content: center;
    margin: 40px;
- }
- 
- #navigation button {
-   padding: 10px 30px;
-   margin: 20px;
- }
- 
-#prevBtn {
-   color: white;
-   background-color: rgb(62, 126, 170);
 }
  
+#navigation button {
+   padding: 10px 30px;
+   margin: 20px;
+}
+ 
+
 #nextBtn {
    color: white;
    background-color: #008001;
 }
 #quitBtn {
-    color: white;
-    background-color: #ff0000;
+   color: white;
+   background-color: #ff0000;
+}
+#prevBtn {
+   color: white;
+   background-color: rgb(62, 126, 170);
+}
+#finishBtn{
+   background-color: black;
 }
